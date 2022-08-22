@@ -1,0 +1,2 @@
+!function(){var e,t=document.querySelector("iframe"),r=new Vimeo.Player(t),o=require(lodash.throttle);r.on("timeupdate",o((function(e){localStorage.setItem("videoplayer-current-time",JSON.stringify(e)),console.log(localstorage.getItem("videoplayer-current-time"))}),1e3)),(e=localStorage.getItem("videoplayer - current - time"))&&r.setCurrentTime(JSON.parse(e))}();
+//# sourceMappingURL=02-video.a07c722f.js.map
